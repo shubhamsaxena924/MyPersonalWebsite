@@ -26,6 +26,7 @@
 }
     	
 .carousel-item {
+	display: table-cell;
 	height: 800px;
   	text-align: center;
 }
