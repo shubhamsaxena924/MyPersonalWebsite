@@ -1,0 +1,31 @@
+
+.myheader {
+  text-align: center;
+  background-color: white;
+  background: url(https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg);
+  background-repeat: no-repeat;
+}
+
+.profilepic {
+  border-radius: 50%;
+}
+
+.carousel-item {
+ height: 500px;
+  text-align: center;
+}
+
+
+.item1 {
+  background-color:red;
+ 
+}
+
+.item2 {
+  background-color:yellow;
+  
+}
+
+.item3 {
+  background-color:blue;
+}

@@ -1,31 +1,46 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display&family=Prata&family=Roboto+Mono:wght@300&family=Satisfy&display=swap');
+/* Bootstrap CSS */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
 
 .myheader {
-  text-align: center;
-  background-color: white;
-  background: url(https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg);
-  background-repeat: no-repeat;
+  	text-align: center;
 }
-
-.profilepic {
-  border-radius: 50%;
+.secpara {
+	color: rgb(188, 182, 171);
+	font-size: 16px;
 }
-
+.secthead:after {
+	content: "";
+    	display: inline-block;
+    	height: 1px;
+    	width: 300px;
+    	background-color: rgb(48, 60, 85);
+    	position: relative;
+    	top: -5px;
+    	margin-left: 20px;
+}
+    	
 .carousel-item {
- height: 500px;
-  text-align: center;
+ 	height: 800px;
+  	text-align: center;
 }
 
 
 .item1 {
-  background-color:red;
+  	background-color:red;
  
 }
 
 .item2 {
-  background-color:yellow;
+  	background-color:yellow;
   
 }
 
 .item3 {
-  background-color:blue;
+  	background-color:blue;
+}
+
+a.contactlink:hover {
+	font-size: 25px;
 }
